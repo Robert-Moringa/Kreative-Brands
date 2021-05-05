@@ -1,0 +1,27 @@
+body{
+    margin: 40px;
+} 
+
+
+.images{
+display: flex;
+justify-content: space-between;
+width: 100vw;
+height: 25%;
+margin-top: 2%;
+}
+
+.logo{
+height: 300px;
+width: 22%;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 25%;
+    margin-top: 2%;
+
+}
+
