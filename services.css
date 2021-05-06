@@ -51,7 +51,7 @@ slideshow-container {
 
 }
 .border{
-    width: 360px;
+    width: 150px;
     height: 4px;
     background: #82ccdd;
     margin: 40px auto;
@@ -126,4 +126,95 @@ slideshow-container {
 }
 .section-desc{
     font-size: 34px;
+}
+
+
+
+
+.contact-section{
+    background: gray;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+
+}
+.border{
+    width: 150px;
+    height: 20px;
+    background: bisque;
+   
+
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+
+
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #343434 ;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-form-btn:hover{
+    background: blue;
+}
+
+
+
+
+ .fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 40px;
+    margin-top: 20px;
+
+  }
+  
+  
+  .fa:hover {
+    color: blue;
+  }
+  .footer{
+    border-top: 0px solid black;
+    text-align: center;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.footer p{
+margin-bottom: 20px;
 }
