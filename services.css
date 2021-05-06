@@ -12,6 +12,29 @@
    padding: 150px 0; 
    text-align: center;
 }
+.topNav{padding: 0;
+    background: #679bb3;
+    box-shadow: 0 0 3px #B1AFAF;
+    width: 100%;
+  }
+.topNav a{color:#333; 
+    font-size: 30px; font-weight:bold;
+     display:inline-block;  
+     padding:9px 7px;
+    text-decoration: none;
+    }
+.topNav a:hover, .topNav a.active{color:#fff;
+   background:#3e2b4b; 
+   text-decoration:none;
+  
+  }
+
+.alignR{text-align: left;}
+slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
 .inner-width{
     width: 100%;
     max-width: 1200px;
