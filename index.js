@@ -26,3 +26,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+var prices = {
+  itemA: 510, itemB : 308, itemC:486, itemD:572
+}

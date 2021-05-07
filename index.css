@@ -40,6 +40,9 @@ justify-content: center;
   background-color: purple;
   color: white;
 }
+#search-button{
+  cursor: pointer;
+}
 #cart{
 width: 10%;
 float: right;
